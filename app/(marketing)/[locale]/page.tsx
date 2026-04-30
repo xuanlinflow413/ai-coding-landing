@@ -3,6 +3,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Check, Code2, Shield, Zap, GitBranch, Lock, RefreshCw } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 export default function HomePage() {
   const t = useTranslations();
@@ -83,24 +84,33 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-24 px-4 sm:px-6 lg:px-8 border-t border-zinc-900">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4">
-            {t('CTA.headline')}
-          </h2>
-          <p className="text-xl text-zinc-400 mb-8">
-            {t('CTA.subheadline')}
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
-            <Button size="lg" className="bg-white text-black hover:bg-zinc-200">
-              {t('CTA.ctaPrimary')}
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
-            <Button size="lg" variant="outline" className="border-zinc-700 text-white hover:bg-zinc-900">
-              {t('CTA.ctaSecondary')}
-            </Button>
-          </div>
-          <p className="text-sm text-zinc-500">
-            {t('CTA.trustLine')}
-          </p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+          >
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              {t('CTA.headline')}
+            </h2>
+            <p className="text-xl text-zinc-400 mb-8">
+              {t('CTA.subheadline')}
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-6">
+              <Link href="/pricing">
+                <Button size="lg" className="bg-white text-black hover:bg-zinc-200">
+                  {t('CTA.ctaPrimary')}
+                  <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+              <Button size="lg" variant="outline" className="border-zinc-700 text-white hover:bg-zinc-900">
+                {t('CTA.ctaSecondary')}
+              </Button>
+            </div>
+            <p className="text-sm text-zinc-500">
+              {t('CTA.trustLine')}
+            </p>
+          </motion.div>
         </div>
       </section>
     </main>
