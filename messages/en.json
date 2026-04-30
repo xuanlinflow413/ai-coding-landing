@@ -1,0 +1,133 @@
+{
+  "Hero": {
+    "headline": "Ship Code That Actually Works",
+    "subheadline": "Stop wrestling with boilerplate and debugging AI hallucinations. We generate production-ready code that passes your tests, follows your conventions, and integrates with your stack.",
+    "ctaPrimary": "Start Coding Free",
+    "ctaSecondary": "See How It Works",
+    "socialProof": "Trusted by 10,000+ developers at Stripe, Vercel, and open-source projects shipping to millions."
+  },
+  "Features": {
+    "title": "Build with confidence.",
+    "items": [
+      {
+        "title": "Context-Aware Generation",
+        "description": "Reads your codebase, dependencies, and conventions — not just the current file."
+      },
+      {
+        "title": "Test-Verified Output",
+        "description": "Every generated block runs through your test suite before it reaches your editor."
+      },
+      {
+        "title": "Zero-Config Integration",
+        "description": "Works with your existing stack. No plugins, no migrations, no setup rituals."
+      },
+      {
+        "title": "Production-Grade Patterns",
+        "description": "Generates code that follows your team's standards — linting, types, docs included."
+      },
+      {
+        "title": "Incremental Refactoring",
+        "description": "Rewrites legacy code in small, reviewable chunks with full git history preserved."
+      },
+      {
+        "title": "Local-First Architecture",
+        "description": "Your code never leaves your machine. Optional cloud sync, never cloud dependency."
+      }
+    ]
+  },
+  "Pricing": {
+    "title": "Simple pricing. No surprises.",
+    "tiers": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "period": "forever",
+        "features": [
+          "Unlimited personal projects",
+          "Context-aware generation (single repo)",
+          "Test verification (local runner)",
+          "Community support"
+        ],
+        "cta": "Start Building — No credit card required"
+      },
+      {
+        "name": "Pro",
+        "price": "$19",
+        "period": "month",
+        "features": [
+          "Multi-repo context awareness",
+          "CI/CD test verification",
+          "Custom code style rules",
+          "Priority email support",
+          "Team sharing (up to 3 seats)"
+        ],
+        "cta": "Upgrade to Pro — 14-day free trial"
+      },
+      {
+        "name": "Team",
+        "price": "$49",
+        "period": "user / month",
+        "features": [
+          "Unlimited seats",
+          "Organization-wide style guides",
+          "SSO & SAML",
+          "Audit logs",
+          "Dedicated Slack channel",
+          "Custom SLA"
+        ],
+        "cta": "Contact Sales — Response within 24h"
+      }
+    ],
+    "notes": [
+      "Annual billing: 2 months free",
+      "Cancel anytime. No questions.",
+      "Educational & open-source: 50% off Pro"
+    ]
+  },
+  "FAQ": {
+    "title": "Questions? Answered.",
+    "items": [
+      {
+        "question": "Is my code sent to your servers?",
+        "answer": "No. Our local-first architecture means your code stays on your machine. The AI model runs locally or via your own API keys. Optional cloud features are opt-in, not opt-out."
+      },
+      {
+        "question": "How is this different from GitHub Copilot or Cursor?",
+        "answer": "Copilot completes lines. Cursor edits files. We generate runnable, tested, production-ready modules that understand your entire codebase — dependencies, tests, conventions, and all."
+      },
+      {
+        "question": "What languages and frameworks do you support?",
+        "answer": "TypeScript, Python, Go, Rust, Ruby, Java, and C#. Frameworks include React, Next.js, Django, Rails, Spring Boot, and anything with a test runner."
+      },
+      {
+        "question": "How do you handle privacy and compliance?",
+        "answer": "SOC 2 Type II certified. No code retention. No training on your data. Full audit logs available on Team plans. GDPR and CCPA compliant by design."
+      },
+      {
+        "question": "Can I get a refund?",
+        "answer": "Yes. Pro and Team plans have a 30-day money-back guarantee. No usage limits, no questions asked. Free plan is free forever."
+      },
+      {
+        "question": "Do you offer enterprise or custom deployments?",
+        "answer": "Yes. Team plan covers most organizations. For air-gapped environments, custom models, or enterprise procurement, contact our sales team — we respond within 24 hours."
+      }
+    ]
+  },
+  "CTA": {
+    "headline": "Stop debugging AI-generated broken code.",
+    "subheadline": "Ship code that actually works.",
+    "ctaPrimary": "Start Building Free",
+    "ctaSecondary": "Talk to Sales",
+    "trustLine": "No setup. No credit card. No hallucinations."
+  },
+  "Nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "docs": "Docs",
+    "signIn": "Sign In",
+    "startBuilding": "Start Building"
+  },
+  "Footer": {
+    "tagline": "Built for engineers who ship."
+  }
+}
