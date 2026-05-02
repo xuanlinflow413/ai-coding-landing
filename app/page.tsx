@@ -1,9 +1,9 @@
 import { Navbar } from "@/components/sections/navbar";
 import { Hero } from "@/components/sections/hero";
-import { Features } from "@/components/sections/features";
+import { BeforeAfter } from "@/components/sections/before-after";
+import { Demo } from "@/components/sections/demo";
 import { Pricing } from "@/components/sections/pricing";
 import { FAQ } from "@/components/sections/faq";
-import { CTA } from "@/components/sections/cta";
 import { Footer } from "@/components/sections/footer";
 
 export default function Home() {
@@ -12,16 +12,14 @@ export default function Home() {
       <Navbar />
       <main className="flex-1">
         <Hero />
-        <section id="features">
-          <Features />
-        </section>
+        <BeforeAfter />
+        <Demo />
         <section id="pricing">
           <Pricing />
         </section>
         <section id="faq">
           <FAQ />
         </section>
-        <CTA />
       </main>
       <Footer />
     </div>

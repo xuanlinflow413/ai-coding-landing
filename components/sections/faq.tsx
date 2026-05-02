@@ -10,34 +10,54 @@ import {
 
 const faqs = [
   {
-    question: "How does the AI code completion work?",
+    question: "What is AI Product Photo Generator?",
     answer:
-      "Our AI analyzes your entire codebase context in real-time. It understands your coding patterns, imports, and dependencies to provide highly relevant suggestions. The model is trained on billions of lines of code across 50+ programming languages.",
+      "It's an AI-powered tool that transforms your product photos into professional e-commerce images. Upload any product shot, choose a scene (like clean white background, lifestyle, or luxury), and our AI generates stunning photos in seconds.",
   },
   {
-    question: "Is my code secure and private?",
+    question: "Do I need photography skills to use it?",
     answer:
-      "Absolutely. We use enterprise-grade encryption and never store your proprietary code. Our Pro and Enterprise plans offer self-hosted options where all processing happens on your infrastructure. We're SOC 2 Type II certified.",
+      "Not at all. The tool is designed for anyone — from solo entrepreneurs to marketing teams. Just upload your product image and pick a scene. The AI handles lighting, background, shadows, and composition automatically.",
   },
   {
-    question: "Which IDEs and editors are supported?",
+    question: "What image formats are supported?",
     answer:
-      "We support VS Code, JetBrains IDEs (IntelliJ, PyCharm, WebStorm), Vim, Neovim, Emacs, Sublime Text, and Atom. New integrations are added monthly based on user requests.",
+      "We support JPG, PNG, and WebP formats up to 5MB per image. For best results, we recommend uploading clear, well-lit product photos with the product clearly visible.",
   },
   {
-    question: "Can I use it for commercial projects?",
+    question: "How many photos can I generate for free?",
     answer:
-      "Yes! All plans including the Free tier allow commercial use. The Pro and Enterprise plans include additional features like team collaboration, advanced security scanning, and priority support for commercial teams.",
+      "The Free plan includes 10 generations per month with access to 3 popular scenes. Upgrade to Pro for 100 generations/month and all 9+ scenes, or Business for unlimited generations.",
   },
   {
-    question: "How accurate are the AI suggestions?",
+    question: "Can I use generated photos for commercial purposes?",
     answer:
-      "Our AI achieves 95%+ accuracy for code completion and 90%+ for bug detection. The model continuously learns from your feedback - thumbs up/down on suggestions helps it improve over time for your specific codebase.",
+      "Yes! Pro and Business plans include a commercial license. Free plan is for personal use only. All generated images are royalty-free for licensed users.",
   },
   {
-    question: "Is there a free trial for Pro features?",
+    question: "What resolution are the generated images?",
     answer:
-      "Yes! Every new user gets a 14-day free trial of Pro features with unlimited completions. No credit card required to start. You can downgrade to the Free plan anytime after the trial.",
+      "Free plan outputs standard resolution (1024×1024). Pro plan includes high-resolution 4K images (2048×2048). Business plan offers ultra HD resolution for large-format printing.",
+  },
+  {
+    question: "How long does generation take?",
+    answer:
+      "Most generations complete in 3–5 seconds. During peak times, it may take up to 10 seconds. Pro and Business users get priority queue access for faster generation.",
+  },
+  {
+    question: "Is my uploaded data safe?",
+    answer:
+      "Absolutely. We do not store your uploaded images permanently. They are processed in real-time and automatically deleted after generation. We never use your product images to train our AI models without explicit consent.",
+  },
+  {
+    question: "Can I request a refund?",
+    answer:
+      "Yes, we offer a 7-day money-back guarantee for Pro and Business plans. If you're not satisfied, contact our support team within 7 days of purchase for a full refund.",
+  },
+  {
+    question: "Do you offer API access?",
+    answer:
+      "API access is available on the Business plan. It allows you to integrate our AI photo generation directly into your e-commerce platform, CMS, or workflow automation tools.",
   },
 ];
 
@@ -62,7 +82,7 @@ export function FAQ() {
             transition={{ delay: 0.1 }}
             className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Everything you need to know about our AI coding assistant.
+            Everything you need to know about AI Product Photo Generator.
           </motion.p>
         </div>
 

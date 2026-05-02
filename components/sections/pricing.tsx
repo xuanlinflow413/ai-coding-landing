@@ -9,15 +9,15 @@ import { Check } from "lucide-react";
 const plans = [
   {
     name: "Free",
-    description: "Perfect for personal projects",
+    description: "Perfect for getting started",
     price: "$0",
     period: "/month",
     features: [
-      "100 AI completions/day",
-      "5 languages supported",
-      "Basic code suggestions",
-      "Community support",
-      "VS Code extension",
+      "10 generations / month",
+      "3 scenes available",
+      "Standard resolution",
+      "Basic support",
+      "Personal use only",
     ],
     cta: "Get Started",
     variant: "outline" as const,
@@ -25,37 +25,36 @@ const plans = [
   },
   {
     name: "Pro",
-    description: "For professional developers",
+    description: "For creators and small businesses",
     price: "$19",
     period: "/month",
     features: [
-      "Unlimited AI completions",
-      "50+ languages supported",
-      "Advanced code generation",
-      "Bug detection & fixes",
-      "Security analysis",
-      "Priority support",
-      "Team collaboration",
-      "API access",
+      "100 generations / month",
+      "All 9+ scenes",
+      "High resolution (4K)",
+      "Priority generation",
+      "Commercial license",
+      "Remove watermark",
+      "Email support",
     ],
     cta: "Start Pro Trial",
     variant: "default" as const,
     popular: true,
   },
   {
-    name: "Enterprise",
-    description: "For teams and organizations",
-    price: "Custom",
-    period: "",
+    name: "Business",
+    description: "For teams and agencies",
+    price: "$49",
+    period: "/month",
     features: [
-      "Everything in Pro",
-      "Self-hosted option",
-      "SSO & SAML",
-      "Advanced analytics",
-      "Custom AI training",
+      "Unlimited generations",
+      "All 9+ scenes + custom",
+      "Ultra HD resolution",
+      "Fastest generation speed",
+      "Commercial license",
+      "API access",
       "Dedicated support",
-      "SLA guarantee",
-      "Audit logs",
+      "Team collaboration",
     ],
     cta: "Contact Sales",
     variant: "outline" as const,
@@ -84,7 +83,7 @@ export function Pricing() {
             transition={{ delay: 0.1 }}
             className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto"
           >
-            Start free, scale as you grow. No hidden fees, cancel anytime.
+            Start free, upgrade when you need more. No hidden fees.
           </motion.p>
         </div>
 

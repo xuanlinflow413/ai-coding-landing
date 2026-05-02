@@ -38,13 +38,13 @@ const footerLinks = {
   Product: [
     { label: "Features", href: "#features" },
     { label: "Pricing", href: "#pricing" },
+    { label: "API", href: "#" },
     { label: "Changelog", href: "#" },
-    { label: "Roadmap", href: "#" },
   ],
   Resources: [
     { label: "Documentation", href: "#" },
-    { label: "API Reference", href: "#" },
     { label: "Blog", href: "#" },
+    { label: "Tutorials", href: "#" },
     { label: "Community", href: "#" },
   ],
   Company: [
@@ -78,11 +78,10 @@ export function Footer() {
               <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
                 <span className="text-primary-foreground font-bold text-sm">AI</span>
               </div>
-              <span className="text-lg font-bold">AICode</span>
+              <span className="text-lg font-bold">PhotoGen AI</span>
             </div>
             <p className="text-sm text-muted-foreground max-w-xs">
-              The most intelligent AI coding assistant. Ship code 10x faster with
-              context-aware AI completions.
+              Professional AI-powered product photography for e-commerce, social media, and ads. No studio needed.
             </p>
             <div className="mt-4 flex gap-4">
               {socialLinks.map((social) => (
@@ -121,10 +120,10 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © 2025 AICode. All rights reserved.
+            © 2025 PhotoGen AI. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground">
-            Made with AI for developers worldwide.
+            Made with AI for creators worldwide.
           </p>
         </div>
       </div>

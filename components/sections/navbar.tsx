@@ -3,10 +3,10 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Camera } from "lucide-react";
 
 const navLinks = [
-  { label: "Features", href: "#features" },
+  { label: "Demo", href: "#demo" },
   { label: "Pricing", href: "#pricing" },
   { label: "FAQ", href: "#faq" },
 ];
@@ -20,9 +20,9 @@ export function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary">
-              <span className="text-primary-foreground font-bold text-sm">AI</span>
+              <Camera className="h-4 w-4 text-primary-foreground" />
             </div>
-            <span className="text-lg font-bold">AICode</span>
+            <span className="text-lg font-bold">PhotoGen AI</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
